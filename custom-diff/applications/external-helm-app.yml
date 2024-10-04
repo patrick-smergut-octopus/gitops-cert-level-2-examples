@@ -31,7 +31,5 @@ spec:
     - group: apps
       kind: Deployment
       jqPathExpressions:
-        - >-
-          .metadata.annotations | select(.name ==
-          "creation")
+        - /metadata/annotations
 
