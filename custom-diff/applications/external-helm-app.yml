@@ -30,6 +30,6 @@ spec:
         - /stringData
     - group: apps
       kind: Deployment
-      jqPathExpressions:
+      jsonPointers:
         - /metadata/annotations
 
